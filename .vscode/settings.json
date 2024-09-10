@@ -1,0 +1,7 @@
+{
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname}.${extname}",
+    "**/app/**/*slug*/page.tsx": "${dirname(1)}.${extname} - slug",
+    "**/app/**/layout.tsx": "${dirname(1)}.${extname} - layout"
+  }
+}
